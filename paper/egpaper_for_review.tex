@@ -1,0 +1,87 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+\usepackage{cvpr}
+\usepackage{times}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% Include other packages here, before hyperref.
+\usepackage{multirow}
+\usepackage{psfrag}
+\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{array}
+\usepackage{forloop}
+\input{macros}
+
+% If you comment hyperref and then uncomment it, you should delete
+% egpaper.aux before re-running latex.  (Or just hit 'q' on the first latex
+% run, let it finish, and you should be clear).
+\usepackage[pagebackref=true,breaklinks=true,letterpaper=true,colorlinks,bookmarks=false]{hyperref}
+
+% \cvprfinalcopy % *** Uncomment this line for the final submission
+
+\def\cvprPaperID{****} % *** Enter the CVPR Paper ID here
+\def\httilde{\mbox{\tt\raisebox{-.5ex}{\symbol{126}}}}
+
+% Pages are numbered in submission mode, and unnumbered in camera-ready
+\ifcvprfinal\pagestyle{empty}\fi
+\begin{document}
+
+%%%%%%%%% TITLE
+\title{A Sparse Linear Model for Saliency-Guided Decolorization}
+
+\author{First Author\\
+Institution1\\
+Institution1 address\\
+{\tt\small firstauthor@i1.org}
+% For a paper whose authors are all at the same institution,
+% omit the following lines up until the closing ``}''.
+% Additional authors and addresses can be added with ``\and'',
+% just like the second author.
+% To save space, use either the email address or home page, not both
+\and
+Second Author\\
+Institution2\\
+First line of institution2 address\\
+{\tt\small secondauthor@i2.org}
+}
+
+\maketitle
+%\thispagestyle{empty}
+
+%%%%%%%%% ABSTRACT
+\begin{abstract}
+   Unlike most of the existing decolorization techniques that emphasize
+   preserving image features revealed in the input color space,
+   our proposed method focuses on exploring those in a higher dimensional
+   feature space. The shift of paradigm is motivated by that decolorization
+   is often sensitive to adopting the various color systems. 
+   The results of converting the same color image expressed in 
+   different color spaces could vary significantly. We instead consider
+   constructing an image-dependent feature space by learning a representative
+   dictionary, and carry out decolorizing an image by retaining the structures
+   there. To this end, for a given image, the atoms of the dictionary 
+   are systematically collected to reflect the visually important/salient contents,
+   and also to concisely reduce chromatic redundancy. 
+   A sparse linear model with respect to the learned dictionary is then assumed.
+   Finally, a linear projection from the feature space of higher dimension
+   to grayscale can be optimized to accomplish the conversion.
+   Experimental results and comparisons with the state-of-the-art are provided
+   to illustrate the various advantages of the proposed framework to decolorization.
+\end{abstract}
+
+%%%%%%%%% BODY TEXT
+\input{introduction}
+\input{related_work}
+\input{method}
+\input{experiments}
+\input{results}
+
+{\small
+\bibliographystyle{ieee}
+\bibliography{egbib}
+}
+
+\end{document}

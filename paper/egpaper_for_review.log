@@ -1,0 +1,1178 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.8.20)  7 NOV 2012 10:24
+entering extended mode
+ %&-line parsing enabled.
+**egpaper_for_review.tex
+(./egpaper_for_review.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./cvpr.sty
+(./eso-pic.sty
+Package: eso-pic 2002/11/16 v1.1b eso-pic (RN)
+ (./cvpr_eso.sty
+
+LaTeX Warning: You have requested package `eso-pic',
+               but the package provides `everyshi'.
+
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+) (/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+))
+(/usr/share/texmf-texlive/tex/latex/tools/xspace.sty
+Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
+)
+CVPR 8.5 x 11-Inch Proceedings Style `cvpr.sty'.
+\@ctmp=\skip43
+\@figindent=\skip44
+\cvprrulerbox=\box26
+\cvprrulercount=\count87
+\cvprruleroffset=\dimen103
+\cv@lineheight=\dimen104
+\cv@boxheight=\dimen105
+\cv@tmpbox=\box27
+\cv@refno=\count88
+\cv@tot=\count89
+\cv@tmpc@=\count90
+\cv@tmpc=\count91
+) (/usr/share/texmf-texlive/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count92
+))
+\Gin@req@height=\dimen106
+\Gin@req@width=\dimen107
+)
+\epsfxsize=\dimen108
+\epsfysize=\dimen109
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen110
+))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen111
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count93
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count94
+\leftroot@=\count95
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count96
+\DOTSCASE@=\count97
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen112
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
+\dotsspace@=\muskip10
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
+\tag@help=\toks16
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
+\andhelp@=\toks17
+\eqnshift@=\dimen113
+\alignsep@=\dimen114
+\tagshift@=\dimen115
+\tagwidth@=\dimen116
+\totwidth@=\dimen117
+\lineht@=\dimen118
+\@envbody=\toks18
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(/usr/share/texmf-texlive/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen119
+)
+(/usr/share/texmf-texlive/tex/latex/psfrag/psfrag.sty
+Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
+\pfg@pcount=\count105
+\pfg@scount=\count106
+\pfg@temp=\write3
+)
+(/usr/share/texmf-texlive/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2005/10/04 v3.9 algorithms environments
+\c@AlgoLine=\count107
+
+(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+********************************************************
+Package `algorithm2e' Release 3.9 -- october 04 2005 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (fiorio@lirmm.fr)
+********************************************************
+\skiptotal=\skip48
+\skiprule=\skip49
+\skiphlne=\skip50
+\skiptext=\skip51
+\skiplength=\skip52
+\algomargin=\skip53
+\skipalgocfslide=\skip54
+\algowidth=\dimen120
+\inoutsize=\dimen121
+\inoutline=\dimen122
+\algocf@inoutbox=\box30
+\algocf@inputbox=\box31
+\AlCapSkip=\skip55
+\AlCapHSkip=\skip56
+\algocf@capbox=\box32
+\c@algocfline=\count108
+\c@algocf=\count109
+\algocf@algoframe=\box33
+\algocf@algobox=\box34
+) (/usr/share/texmf-texlive/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen123
+\extrarowheight=\dimen124
+\NC@list=\toks20
+\extratabsurround=\skip57
+\backup@length=\skip58
+)
+(/usr/share/texmf-texlive/tex/latex/forloop/forloop.sty
+Package: forloop 2006/09/18 v3.0 For Loops for LaTeX
+) (./macros.tex)
+(/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/hycolor.sty
+Package: hycolor 2009/10/02 v1.5 Code for color options of hyperref/bookmark (H
+O)
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/xcolor-patch.sty
+Package: xcolor-patch 2009/10/02 xcolor patch
+))
+\@linkdim=\dimen125
+\Hy@linkcounter=\count110
+\Hy@pagecounter=\count111
+
+(/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)
+(/usr/share/texmf-texlive/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
+t (HO)
+))
+Package hyperref Info: Option `breaklinks' set `true' on input line 2864.
+Package hyperref Info: Option `colorlinks' set `true' on input line 2864.
+Package hyperref Info: Option `bookmarks' set `false' on input line 2864.
+Package hyperref Info: Hyper figures OFF on input line 2975.
+Package hyperref Info: Link nesting OFF on input line 2980.
+Package hyperref Info: Hyper index ON on input line 2983.
+Package hyperref Info: Plain pages OFF on input line 2990.
+Package hyperref Info: Backreferencing ON on input line 2993.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks OFF on input line 3197.
+(/usr/share/texmf-texlive/tex/latex/hyperref/backref.sty
+Package: backref 2006/09/05 v1.28 Bibliographical back referencing
+)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 3428.
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/bitset.sty
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/intcalc.sty
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/bigintcalc.sty
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
+ (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
+)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)))
+\Fld@menulength=\count112
+\Field@Width=\dimen126
+\Fld@charsize=\dimen127
+\Field@toks=\toks21
+Package hyperref Info: Hyper figures OFF on input line 4377.
+Package hyperref Info: Link nesting OFF on input line 4382.
+Package hyperref Info: Hyper index ON on input line 4385.
+Package hyperref Info: backreferencing ON on input line 4390.
+Package hyperref Info: Link coloring ON on input line 4395.
+Package hyperref Info: Link coloring with OCG OFF on input line 4402.
+Package hyperref Info: PDF/A mode OFF on input line 4407.
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
+)
+\Hy@abspage=\count113
+\c@Item=\count114
+\c@Hfootnote=\count115
+)
+*hyperref using default driver hpdftex*
+(/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
+\Fld@listcount=\count116
+)
+(./egpaper_for_review.aux)
+\openout1 = `egpaper_for_review.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 30.
+ (/usr/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+) ABD: EveryShipout initializing macros
+(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count117
+\scratchdimen=\dimen128
+\scratchbox=\box35
+\nofMPsegments=\count118
+\nofMParguments=\count119
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count120
+\MPscratchDim=\dimen129
+\MPnumerator=\count121
+\everyMPtoPDFconversion=\toks23
+)
+Package hyperref Info: Link coloring ON on input line 30.
+ (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+)
+\c@section@level=\count122
+)
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
+\AtBeginShipoutBox=\box36
+Package atbegshi Info: Package `everyshi' patched.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 53.
+LaTeX Font Info:    Try loading font information for U+msa on input line 53.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 53.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
+ (./introduction.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
+
+
+LaTeX Warning: Citation `Gooch:2005:CSC' on page 1 undefined on input line 20.
+
+
+LaTeX Warning: Citation `Lau:2011:CBC' on page 1 undefined on input line 20.
+
+
+LaTeX Warning: Citation `Ancuti:2011:ESG' on page 1 undefined on input line 20.
+
+
+<fig/isoluminance.png, id=3, 125.46875pt x 130.4875pt>
+File: fig/isoluminance.png Graphic file (type png)
+
+<use fig/isoluminance.png>
+<fig/isoluminance-sparse_dr.png, id=4, 125.46875pt x 130.4875pt>
+File: fig/isoluminance-sparse_dr.png Graphic file (type png)
+
+<use fig/isoluminance-sparse_dr.png>
+<fig/isoluminance-rgb2gray.png, id=5, 125.46875pt x 130.4875pt>
+File: fig/isoluminance-rgb2gray.png Graphic file (type png)
+
+<use fig/isoluminance-rgb2gray.png>
+<fig/rubin_vase.png, id=6, 277.035pt x 299.1175pt>
+File: fig/rubin_vase.png Graphic file (type png)
+ <use fig/rubin_vase.png>
+<fig/rubin_vase-sparse_dr.png, id=7, 277.035pt x 299.1175pt>
+File: fig/rubin_vase-sparse_dr.png Graphic file (type png)
+
+<use fig/rubin_vase-sparse_dr.png>
+<fig/rubin_vase-rgb2gray.png, id=8, 277.035pt x 299.1175pt>
+File: fig/rubin_vase-rgb2gray.png Graphic file (type png)
+
+<use fig/rubin_vase-rgb2gray.png>) (./related_work.tex
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 1.
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+Non-PDF special ignored!
+
+
+ <./fig/isoluminance.png (PNG copy)> <./fig/isoluminance-sparse_dr.png (PNG cop
+y)> <./fig/isoluminance-rgb2gray.png (PNG copy)> <./fig/rubin_vase.png (PNG cop
+y)> <./fig/rubin_vase-sparse_dr.png (PNG copy)> <./fig/rubin_vase-rgb2gray.png 
+(PNG copy)>]
+
+LaTeX Warning: Citation `Gooch:2005:CSC' on page 2 undefined on input line 28.
+
+
+LaTeX Warning: Citation `Bala:2004:SCT' on page 2 undefined on input line 39.
+
+
+LaTeX Warning: Citation `Gooch:2005:CSC' on page 2 undefined on input line 43.
+
+
+LaTeX Warning: Citation `Smith:2008:AGA' on page 2 undefined on input line 47.
+
+
+LaTeX Warning: Reference `tab:performance' on page 2 undefined on input line 52
+.
+
+
+LaTeX Warning: Citation `Rasche:2005:RIG' on page 2 undefined on input line 55.
+
+
+
+LaTeX Warning: Citation `Rasche:2005:DPR' on page 2 undefined on input line 57.
+
+
+
+LaTeX Warning: Citation `Grundland:2007:DFC' on page 2 undefined on input line 
+58.
+
+
+LaTeX Warning: Citation `Lau:2011:CBC' on page 2 undefined on input line 63.
+
+
+LaTeX Warning: Citation `Ancuti:2011:ESG' on page 2 undefined on input line 65.
+
+
+
+LaTeX Warning: Citation `Ancuti:2011:ESG' on page 2 undefined on input line 81.
+
+
+) (./method.tex <fig/Poor-nga.jpg, id=24, 254.9525pt x 391.4625pt>
+File: fig/Poor-nga.jpg Graphic file (type jpg)
+
+<use fig/Poor-nga.jpg>
+<fig/Poor-nga-sparse_dr.png, id=25, 254.9525pt x 391.4625pt>
+File: fig/Poor-nga-sparse_dr.png Graphic file (type png)
+
+<use fig/Poor-nga-sparse_dr.png>
+<fig/Poor-nga-rgb2gray.png, id=26, 254.9525pt x 391.4625pt>
+File: fig/Poor-nga-rgb2gray.png Graphic file (type png)
+
+<use fig/Poor-nga-rgb2gray.png>
+Overfull \hbox (12.28854pt too wide) in paragraph at lines 13--19
+ [] 
+ []
+
+
+LaTeX Warning: Citation `Seeger08:BIO' on page 2 undefined on input line 38.
+
+[2 <./fig/Poor-nga.jpg> <./fig/Poor-nga-sparse_dr.png (PNG copy)> <./fig/Poor-n
+ga-rgb2gray.png (PNG copy)>]
+
+LaTeX Warning: Citation `Tibshirani94' on page 3 undefined on input line 104.
+
+
+LaTeX Warning: Reference `fig:overview' on page 3 undefined on input line 109.
+
+
+LaTeX Warning: Citation `Felzenszwalb:2004:EGI' on page 3 undefined on input li
+ne 118.
+
+
+LaTeX Warning: Citation `Goferman10' on page 3 undefined on input line 121.
+
+
+LaTeX Warning: Citation `YangYH10' on page 3 undefined on input line 152.
+
+! Undefined control sequence.
+l.173 \DontPrintSemicolon
+                          %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.174 \SetAlgoLined
+                    %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package hyperref Info: bookmark level for unknown algocf defaults to 0 on input
+ line 190.
+
+Underfull \hbox (badness 10000) detected at line 191
+[][]
+ []
+
+[3]
+
+LaTeX Warning: Citation `Gkioulekas:2011:DRU' on page 4 undefined on input line
+ 235.
+
+
+Overfull \hbox (26.28769pt too wide) detected at line 262
+[] [] [] [] \OML/cmm/m/it/10 s[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 P\OT1/cmr/bx/
+n/10 m[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 P\OT1/cmr/bx/n/10 m[]\OT1/cmr/m/
+n/10 )[] = [] [] \OML/cmm/m/it/10 s[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 LR\OT1/c
+mr/bx/n/10 m[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 LR\OT1/cmr/bx/n/10 m[]\OT1
+/cmr/m/n/10 )[] \OML/cmm/m/it/10 :
+ []
+
+) (./experiments.tex <fig/Voiture.png, id=74, 125.46875pt x 125.46875pt>
+File: fig/Voiture.png Graphic file (type png)
+
+<use fig/Voiture.png>
+<fig/Voiture-sparse_dr-colorT03_resize01.png, id=75, 125.46875pt x 125.46875pt>
+File: fig/Voiture-sparse_dr-colorT03_resize01.png Graphic file (type png)
+<use fig/Voiture-sparse_dr-colorT03_resize01.png>
+<fig/Voiture-sparse_dr-colorT02_resize01.png, id=76, 125.46875pt x 125.46875pt>
+File: fig/Voiture-sparse_dr-colorT02_resize01.png Graphic file (type png)
+<use fig/Voiture-sparse_dr-colorT02_resize01.png>
+<fig/Voiture-visD-all.png, id=77, 94.85437pt x 57.96657pt>
+File: fig/Voiture-visD-all.png Graphic file (type png)
+
+<use fig/Voiture-visD-all.png>
+<fig/Voiture-visD-colorT03.png, id=78, 129.48375pt x 80.3pt>
+File: fig/Voiture-visD-colorT03.png Graphic file (type png)
+
+<use fig/Voiture-visD-colorT03.png>
+<fig/Voiture-visD-colorT02.png, id=79, 129.48375pt x 80.3pt>
+File: fig/Voiture-visD-colorT02.png Graphic file (type png)
+
+<use fig/Voiture-visD-colorT02.png>
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
+
+
+LaTeX Warning: Citation `Gooch:2005:CSC' on page 4 undefined on input line 55.
+
+
+LaTeX Warning: Citation `Ancuti:2011:ESG' on page 4 undefined on input line 55.
+
+
+[4]
+Underfull \hbox (badness 3386) in paragraph at lines 63--76
+\OT1/ptm/m/n/10 com-pu-ta-tion, and di-men-sion-al-ity re-duc-tion by sparse
+ []
+
+<fig/colorwheel.jpg, id=92, 301.125pt x 301.125pt>
+File: fig/colorwheel.jpg Graphic file (type jpg)
+ <use fig/colorwheel.jpg>
+<fig/colorwheel-sparse_dr.png, id=93, 401.5pt x 401.5pt>
+File: fig/colorwheel-sparse_dr.png Graphic file (type png)
+
+<use fig/colorwheel-sparse_dr.png>
+<fig/colorwheel-pca_rgb.png, id=94, 401.5pt x 401.5pt>
+File: fig/colorwheel-pca_rgb.png Graphic file (type png)
+
+<use fig/colorwheel-pca_rgb.png>
+<fig/colorwheel-pca_lab.png, id=95, 401.5pt x 401.5pt>
+File: fig/colorwheel-pca_lab.png Graphic file (type png)
+
+<use fig/colorwheel-pca_lab.png>
+Overfull \hbox (0.56987pt too wide) in paragraph at lines 81--93
+ [] 
+ []
+
+<fig/2_75_75169.png, id=96, 401.5pt x 301.125pt>
+File: fig/2_75_75169.png Graphic file (type png)
+ <use fig/2_75_75169.png>
+<fig/2_75_75169-sparse_dr.png, id=97, 401.5pt x 301.125pt>
+File: fig/2_75_75169-sparse_dr.png Graphic file (type png)
+
+<use fig/2_75_75169-sparse_dr.png>
+<fig/2_75_75169-rgb2gray.png, id=98, 401.5pt x 301.125pt>
+File: fig/2_75_75169-rgb2gray.png Graphic file (type png)
+
+<use fig/2_75_75169-rgb2gray.png>
+<fig/2_75_75169_SaliencyMap.jpg, id=99, 250.9375pt x 188.705pt>
+File: fig/2_75_75169_SaliencyMap.jpg Graphic file (type jpg)
+
+<use fig/2_75_75169_SaliencyMap.jpg>
+<fig/2_75_75169-sparse_dr_SaliencyMap.jpg, id=100, 250.9375pt x 188.705pt>
+File: fig/2_75_75169-sparse_dr_SaliencyMap.jpg Graphic file (type jpg)
+
+<use fig/2_75_75169-sparse_dr_SaliencyMap.jpg>
+<fig/2_75_75169-rgb2gray_SaliencyMap.jpg, id=101, 250.9375pt x 188.705pt>
+File: fig/2_75_75169-rgb2gray_SaliencyMap.jpg Graphic file (type jpg)
+
+<use fig/2_75_75169-rgb2gray_SaliencyMap.jpg>
+Overfull \hbox (12.28854pt too wide) in paragraph at lines 101--118
+ [] 
+ []
+
+
+LaTeX Warning: Citation `Hou:2012:ISH' on page 5 undefined on input line 118.
+
+
+LaTeX Warning: Citation `Hou:2012:ISH' on page 5 undefined on input line 118.
+
+
+LaTeX Warning: Citation `Gooch:2005:CSC' on page 5 undefined on input line 126.
+
+
+
+LaTeX Warning: Citation `Gooch:2005:CSC' on page 5 undefined on input line 128.
+
+
+
+LaTeX Warning: Citation `Ancuti:2011:ESG' on page 5 undefined on input line 145
+.
+
+
+Overfull \hbox (5.64061pt too wide) in paragraph at lines 162--162
+ []|[]| 
+ []
+
+
+Overfull \hbox (52.07867pt too wide) in paragraph at lines 160--166
+ [] 
+ []
+
+
+LaTeX Warning: Citation `Xiang:2011:LSP' on page 5 undefined on input line 185.
+
+
+
+LaTeX Warning: Citation `Gooch:2005:CSC' on page 5 undefined on input line 189.
+
+
+) (./results.tex
+Underfull \vbox (badness 7595) has occurred while \output is active []
+
+ [5 <./fig/Voiture.png (PNG copy)> <./fig/Voiture-sparse_dr-colorT03_resize01.p
+ng (PNG copy)> <./fig/Voiture-sparse_dr-colorT02_resize01.png (PNG copy)> <./fi
+g/Voiture-visD-all.png (PNG copy)> <./fig/Voiture-visD-colorT03.png (PNG copy)>
+ <./fig/Voiture-visD-colorT02.png (PNG copy)> <./fig/colorwheel.jpg> <./fig/col
+orwheel-sparse_dr.png (PNG copy)> <./fig/colorwheel-pca_rgb.png (PNG copy)> <./
+fig/colorwheel-pca_lab.png (PNG copy)> <./fig/2_75_75169.png (PNG copy)> <./fig
+/2_75_75169-sparse_dr.png (PNG copy)> <./fig/2_75_75169-rgb2gray.png (PNG copy)
+> <./fig/2_75_75169_SaliencyMap.jpg> <./fig/2_75_75169-sparse_dr_SaliencyMap.jp
+g> <./fig/2_75_75169-rgb2gray_SaliencyMap.jpg>]
+<fig/supp/c07.png, id=115, 150.5625pt x 33.12375pt>
+File: fig/supp/c07.png Graphic file (type png)
+ <use fig/supp/c07.png>
+<fig/supp/c07-sparse_dr.png, id=117, 200.75pt x 44.165pt>
+File: fig/supp/c07-sparse_dr.png Graphic file (type png)
+
+<use fig/supp/c07-sparse_dr.png>
+<fig/supp/c07-rgb2gray.png, id=118, 150.5625pt x 33.12375pt>
+File: fig/supp/c07-rgb2gray.png Graphic file (type png)
+
+<use fig/supp/c07-rgb2gray.png>
+<fig/supp/c07-ancuti2011.png, id=119, 150.5625pt x 33.12375pt>
+File: fig/supp/c07-ancuti2011.png Graphic file (type png)
+
+<use fig/supp/c07-ancuti2011.png>
+<fig/supp/c07-kim2009.png, id=120, 146.04562pt x 31.61812pt>
+File: fig/supp/c07-kim2009.png Graphic file (type png)
+
+<use fig/supp/c07-kim2009.png>
+<fig/supp/c07-smith2008.png, id=121, 150.5625pt x 33.12375pt>
+File: fig/supp/c07-smith2008.png Graphic file (type png)
+
+<use fig/supp/c07-smith2008.png>
+<fig/supp/c07-pr2006.png, id=122, 150.5625pt x 33.12375pt>
+File: fig/supp/c07-pr2006.png Graphic file (type png)
+
+<use fig/supp/c07-pr2006.png>
+<fig/supp/c07-gooch2005.png, id=123, 150.5625pt x 33.12375pt>
+File: fig/supp/c07-gooch2005.png Graphic file (type png)
+
+<use fig/supp/c07-gooch2005.png>
+<fig/supp/c07-rasche2005.png, id=124, 150.5625pt x 33.12375pt>
+File: fig/supp/c07-rasche2005.png Graphic file (type png)
+
+<use fig/supp/c07-rasche2005.png>
+<fig/supp/c08.png, id=125, 150.5625pt x 149.05687pt>
+File: fig/supp/c08.png Graphic file (type png)
+ <use fig/supp/c08.png>
+<fig/supp/c08-sparse_dr.png, id=126, 200.75pt x 198.7425pt>
+File: fig/supp/c08-sparse_dr.png Graphic file (type png)
+
+<use fig/supp/c08-sparse_dr.png>
+<fig/supp/c08-rgb2gray.png, id=127, 150.5625pt x 149.05687pt>
+File: fig/supp/c08-rgb2gray.png Graphic file (type png)
+
+<use fig/supp/c08-rgb2gray.png>
+<fig/supp/c08-ancuti2011.png, id=128, 150.5625pt x 149.05687pt>
+File: fig/supp/c08-ancuti2011.png Graphic file (type png)
+
+<use fig/supp/c08-ancuti2011.png>
+<fig/supp/c08-kim2009.png, id=129, 146.04562pt x 146.04562pt>
+File: fig/supp/c08-kim2009.png Graphic file (type png)
+
+<use fig/supp/c08-kim2009.png>
+<fig/supp/c08-smith2008.png, id=130, 150.5625pt x 149.05687pt>
+File: fig/supp/c08-smith2008.png Graphic file (type png)
+
+<use fig/supp/c08-smith2008.png>
+<fig/supp/c08-pr2006.png, id=131, 150.5625pt x 149.05687pt>
+File: fig/supp/c08-pr2006.png Graphic file (type png)
+
+<use fig/supp/c08-pr2006.png>
+<fig/supp/c08-gooch2005.png, id=132, 150.5625pt x 149.05687pt>
+File: fig/supp/c08-gooch2005.png Graphic file (type png)
+
+<use fig/supp/c08-gooch2005.png>
+<fig/supp/c08-rasche2005.png, id=133, 150.5625pt x 149.05687pt>
+File: fig/supp/c08-rasche2005.png Graphic file (type png)
+
+<use fig/supp/c08-rasche2005.png>
+<fig/supp/c11.png, id=134, 188.95593pt x 126.4725pt>
+File: fig/supp/c11.png Graphic file (type png)
+ <use fig/supp/c11.png>
+<fig/supp/c11-sparse_dr.png, id=135, 251.94125pt x 168.63pt>
+File: fig/supp/c11-sparse_dr.png Graphic file (type png)
+
+<use fig/supp/c11-sparse_dr.png>
+<fig/supp/c11-rgb2gray.png, id=136, 293.59688pt x 195.73125pt>
+File: fig/supp/c11-rgb2gray.png Graphic file (type png)
+
+<use fig/supp/c11-rgb2gray.png>
+<fig/supp/c11-ancuti2011.png, id=137, 188.95593pt x 126.4725pt>
+File: fig/supp/c11-ancuti2011.png Graphic file (type png)
+
+<use fig/supp/c11-ancuti2011.png>
+<fig/supp/c11-kim2009.png, id=138, 188.95593pt x 126.4725pt>
+File: fig/supp/c11-kim2009.png Graphic file (type png)
+
+<use fig/supp/c11-kim2009.png>
+<fig/supp/c11-smith2008.png, id=139, 188.95593pt x 126.4725pt>
+File: fig/supp/c11-smith2008.png Graphic file (type png)
+
+<use fig/supp/c11-smith2008.png>
+<fig/supp/c11-pr2006.png, id=140, 293.59688pt x 195.73125pt>
+File: fig/supp/c11-pr2006.png Graphic file (type png)
+
+<use fig/supp/c11-pr2006.png>
+<fig/supp/c11-gooch2005.png, id=141, 188.95593pt x 126.4725pt>
+File: fig/supp/c11-gooch2005.png Graphic file (type png)
+
+<use fig/supp/c11-gooch2005.png>
+<fig/supp/c11-rasche2005.png, id=142, 188.95593pt x 126.4725pt>
+File: fig/supp/c11-rasche2005.png Graphic file (type png)
+
+<use fig/supp/c11-rasche2005.png>
+<fig/supp/c23.png, id=143, 188.95593pt x 126.4725pt>
+File: fig/supp/c23.png Graphic file (type png)
+ <use fig/supp/c23.png>
+<fig/supp/c23-sparse_dr.png, id=144, 251.94125pt x 168.63pt>
+File: fig/supp/c23-sparse_dr.png Graphic file (type png)
+
+<use fig/supp/c23-sparse_dr.png>
+<fig/supp/c23-rgb2gray.png, id=145, 293.59688pt x 195.73125pt>
+File: fig/supp/c23-rgb2gray.png Graphic file (type png)
+
+<use fig/supp/c23-rgb2gray.png>
+<fig/supp/c23-ancuti2011.png, id=146, 188.95593pt x 126.4725pt>
+File: fig/supp/c23-ancuti2011.png Graphic file (type png)
+
+<use fig/supp/c23-ancuti2011.png>
+<fig/supp/c23-kim2009.png, id=147, 189.70876pt x 126.4725pt>
+File: fig/supp/c23-kim2009.png Graphic file (type png)
+
+<use fig/supp/c23-kim2009.png>
+<fig/supp/c23-smith2008.png, id=148, 188.95593pt x 126.4725pt>
+File: fig/supp/c23-smith2008.png Graphic file (type png)
+
+<use fig/supp/c23-smith2008.png>
+<fig/supp/c23-pr2006.png, id=149, 293.59688pt x 195.73125pt>
+File: fig/supp/c23-pr2006.png Graphic file (type png)
+
+<use fig/supp/c23-pr2006.png>
+<fig/supp/c23-gooch2005.png, id=150, 188.95593pt x 126.4725pt>
+File: fig/supp/c23-gooch2005.png Graphic file (type png)
+
+<use fig/supp/c23-gooch2005.png>
+<fig/supp/c23-rasche2005.png, id=151, 188.95593pt x 126.4725pt>
+File: fig/supp/c23-rasche2005.png Graphic file (type png)
+
+<use fig/supp/c23-rasche2005.png>
+<fig/supp/c24.png, id=152, 188.95593pt x 126.4725pt>
+File: fig/supp/c24.png Graphic file (type png)
+ <use fig/supp/c24.png>
+<fig/supp/c24-sparse_dr.png, id=153, 251.94125pt x 168.63pt>
+File: fig/supp/c24-sparse_dr.png Graphic file (type png)
+
+<use fig/supp/c24-sparse_dr.png>
+<fig/supp/c24-rgb2gray.png, id=154, 293.59688pt x 195.73125pt>
+File: fig/supp/c24-rgb2gray.png Graphic file (type png)
+
+<use fig/supp/c24-rgb2gray.png>
+<fig/supp/c24-ancuti2011.png, id=155, 188.95593pt x 126.4725pt>
+File: fig/supp/c24-ancuti2011.png Graphic file (type png)
+
+<use fig/supp/c24-ancuti2011.png>
+<fig/supp/c24-kim2009.png, id=156, 189.70876pt x 126.4725pt>
+File: fig/supp/c24-kim2009.png Graphic file (type png)
+
+<use fig/supp/c24-kim2009.png>
+<fig/supp/c24-smith2008.png, id=157, 188.95593pt x 126.4725pt>
+File: fig/supp/c24-smith2008.png Graphic file (type png)
+
+<use fig/supp/c24-smith2008.png>
+<fig/supp/c24-pr2006.png, id=158, 293.59688pt x 195.73125pt>
+File: fig/supp/c24-pr2006.png Graphic file (type png)
+
+<use fig/supp/c24-pr2006.png>
+<fig/supp/c24-gooch2005.png, id=159, 188.95593pt x 126.4725pt>
+File: fig/supp/c24-gooch2005.png Graphic file (type png)
+
+<use fig/supp/c24-gooch2005.png>
+<fig/supp/c24-rasche2005.png, id=160, 188.95593pt x 126.4725pt>
+File: fig/supp/c24-rasche2005.png Graphic file (type png)
+
+<use fig/supp/c24-rasche2005.png>
+! Undefined control sequence.
+l.57 ... & Ancuti11 & Kim09 & Smith08 & \shortcite
+                                                  {Grundland:2007:DFC} & Goo...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (19.4248pt too wide) in paragraph at lines 6--72
+ [] 
+ []
+
+! Undefined control sequence.
+<argument> ..., Ancuti~\etal ~\protect \shortcite 
+                                                  {Ancuti:2011:ESG}, Kim~\et...
+l.72 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...SG}, Kim~\etal ~\protect \shortcite 
+                                                  {Kim:2009:RCV}, Smith~\eta...
+l.72 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...}, Smith~\etal ~\protect \shortcite 
+                                                  {Smith:2008:AGA}, Grundlan...
+l.72 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...and and Dodgson~\protect \shortcite 
+                                                  {Grundland:2007:DFC}, Gooc...
+l.72 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...}, Gooch~\etal ~\protect \shortcite 
+                                                  {Gooch:2005:CSC}, and Rasc...
+l.72 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...d Rasche~\etal ~\protect \shortcite 
+                                                  {Rasche:2005:RIG}. From to...
+l.72 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ..., Ancuti~\etal ~\protect \shortcite 
+                                                  {Ancuti:2011:ESG}, Kim~\et...
+l.72 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...SG}, Kim~\etal ~\protect \shortcite 
+                                                  {Kim:2009:RCV}, Smith~\eta...
+l.72 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...}, Smith~\etal ~\protect \shortcite 
+                                                  {Smith:2008:AGA}, Grundlan...
+l.72 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...and and Dodgson~\protect \shortcite 
+                                                  {Grundland:2007:DFC}, Gooc...
+l.72 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...}, Gooch~\etal ~\protect \shortcite 
+                                                  {Gooch:2005:CSC}, and Rasc...
+l.72 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...d Rasche~\etal ~\protect \shortcite 
+                                                  {Rasche:2005:RIG}. From to...
+l.72 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Ancuti:2011:ESG' on page 6 undefined on input line 78.
+
+
+
+LaTeX Warning: Citation `Kim:2009:RCV' on page 6 undefined on input line 78.
+
+
+LaTeX Warning: Citation `Smith:2008:AGA' on page 6 undefined on input line 78.
+
+
+LaTeX Warning: Citation `Grundland:2007:DFC' on page 6 undefined on input line 
+78.
+
+
+LaTeX Warning: Citation `Rasche:2005:DPR' on page 6 undefined on input line 78.
+
+
+
+LaTeX Warning: Citation `Gooch:2005:CSC' on page 6 undefined on input line 78.
+
+
+LaTeX Warning: Citation `Bala:2004:SCT' on page 6 undefined on input line 83.
+
+
+LaTeX Warning: Citation `Gooch:2005:CSC' on page 6 undefined on input line 83.
+
+
+LaTeX Warning: Citation `Rasche:2005:RIG' on page 6 undefined on input line 83.
+
+
+
+LaTeX Warning: Citation `Ancuti:2011:ESG' on page 6 undefined on input line 87.
+
+
+<fig/i02.png, id=164, 401.5pt x 332.24126pt>
+File: fig/i02.png Graphic file (type png)
+ <use fig/i02.png>
+<fig/i02-rgb2gray.png, id=165, 401.5pt x 332.24126pt>
+File: fig/i02-rgb2gray.png Graphic file (type png)
+
+<use fig/i02-rgb2gray.png>
+<fig/i02-sparse_dr.png, id=166, 401.5pt x 332.24126pt>
+File: fig/i02-sparse_dr.png Graphic file (type png)
+
+<use fig/i02-sparse_dr.png>
+<fig/i02-enhance.png, id=167, 401.5pt x 332.24126pt>
+File: fig/i02-enhance.png Graphic file (type png)
+ <use fig/i02-enhance.png>
+<fig/i02-iccp2012.png, id=168, 301.125pt x 249.18094pt>
+File: fig/i02-iccp2012.png Graphic file (type png)
+
+<use fig/i02-iccp2012.png> <fig/i04.png, id=169, 301.125pt x 225.84375pt>
+File: fig/i04.png Graphic file (type png)
+
+<use fig/i04.png> <fig/i04-rgb2gray.png, id=170, 401.5pt x 301.125pt>
+File: fig/i04-rgb2gray.png Graphic file (type png)
+
+<use fig/i04-rgb2gray.png>
+<fig/i04-sparse_dr.png, id=171, 401.5pt x 301.125pt>
+File: fig/i04-sparse_dr.png Graphic file (type png)
+
+<use fig/i04-sparse_dr.png> <fig/i04-enhance.png, id=172, 401.5pt x 301.125pt>
+File: fig/i04-enhance.png Graphic file (type png)
+
+<use fig/i04-enhance.png>
+<fig/i04-iccp2012.png, id=173, 301.125pt x 225.84375pt>
+File: fig/i04-iccp2012.png Graphic file (type png)
+
+<use fig/i04-iccp2012.png>
+Overfull \hbox (10.29616pt too wide) in paragraph at lines 96--116
+ [] 
+ []
+
+
+LaTeX Warning: Citation `Lu:2012:CPD' on page 6 undefined on input line 116.
+
+
+LaTeX Warning: Citation `Lu:2012:CPD' on page 6 undefined on input line 116.
+
+<fig/r08.png, id=174, 734.745pt x 487.8225pt>
+File: fig/r08.png Graphic file (type png)
+ <use fig/r08.png>
+<fig/r08-rgb2gray.png, id=175, 734.745pt x 487.8225pt>
+File: fig/r08-rgb2gray.png Graphic file (type png)
+
+<use fig/r08-rgb2gray.png>
+<fig/r08-sparse_dr.png, id=176, 734.745pt x 487.8225pt>
+File: fig/r08-sparse_dr.png Graphic file (type png)
+
+<use fig/r08-sparse_dr.png>
+<fig/r08-enhance.png, id=177, 734.745pt x 487.8225pt>
+File: fig/r08-enhance.png Graphic file (type png)
+
+<use fig/r08-enhance.png>
+
+LaTeX Warning: Citation `Lu:2012:CPD' on page 6 undefined on input line 140.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./egpaper_for_review.bbl (./egpaper_for_review.brf)
+\tf@brf=\write4
+\openout4 = `egpaper_for_review.brf'.
+
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 23.
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)) [6] [7 <./fig/supp/c07.png> <./fig/supp/c07-sparse_dr.png (PNG copy)> <./fig
+/supp/c07-rgb2gray.png (PNG copy)> <./fig/supp/c07-ancuti2011.png> <./fig/supp/
+c07-kim2009.png (PNG copy)> <./fig/supp/c07-smith2008.png> <./fig/supp/c07-pr20
+06.png (PNG copy)> <./fig/supp/c07-gooch2005.png (PNG copy)> <./fig/supp/c07-ra
+sche2005.png> <./fig/supp/c08.png> <./fig/supp/c08-sparse_dr.png (PNG copy)> <.
+/fig/supp/c08-rgb2gray.png (PNG copy)> <./fig/supp/c08-ancuti2011.png> <./fig/s
+upp/c08-kim2009.png> <./fig/supp/c08-smith2008.png> <./fig/supp/c08-pr2006.png 
+(PNG copy)> <./fig/supp/c08-gooch2005.png> <./fig/supp/c08-rasche2005.png> <./f
+ig/supp/c11.png> <./fig/supp/c11-sparse_dr.png (PNG copy)> <./fig/supp/c11-rgb2
+gray.png> <./fig/supp/c11-ancuti2011.png> <./fig/supp/c11-kim2009.png> <./fig/s
+upp/c11-smith2008.png> <./fig/supp/c11-pr2006.png> <./fig/supp/c11-gooch2005.pn
+g> <./fig/supp/c11-rasche2005.png> <./fig/supp/c23.png> <./fig/supp/c23-sparse_
+dr.png (PNG copy)> <./fig/supp/c23-rgb2gray.png (PNG copy)> <./fig/supp/c23-anc
+uti2011.png> <./fig/supp/c23-kim2009.png> <./fig/supp/c23-smith2008.png> <./fig
+/supp/c23-pr2006.png (PNG copy)> <./fig/supp/c23-gooch2005.png> <./fig/supp/c23
+-rasche2005.png> <./fig/supp/c24.png> <./fig/supp/c24-sparse_dr.png (PNG copy)>
+ <./fig/supp/c24-rgb2gray.png (PNG copy)> <./fig/supp/c24-ancuti2011.png> <./fi
+g/supp/c24-kim2009.png> <./fig/supp/c24-smith2008.png> <./fig/supp/c24-pr2006.p
+ng (PNG copy)> <./fig/supp/c24-gooch2005.png> <./fig/supp/c24-rasche2005.png> <
+./fig/i02.png (PNG copy)> <./fig/i02-rgb2gray.png (PNG copy)> <./fig/i02-sparse
+_dr.png (PNG copy)> <./fig/i02-enhance.png (PNG copy)> <./fig/i02-iccp2012.png>
+ <./fig/i04.png> <./fig/i04-rgb2gray.png (PNG copy)> <./fig/i04-sparse_dr.png (
+PNG copy)> <./fig/i04-enhance.png (PNG copy)> <./fig/i04-iccp2012.png> <./fig/r
+08.png (PNG copy)> <./fig/r08-rgb2gray.png (PNG copy)> <./fig/r08-sparse_dr.png
+ (PNG copy)> <./fig/r08-enhance.png (PNG copy)>] (./egpaper_for_review.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 7257 strings out of 495061
+ 104952 string characters out of 1182621
+ 210127 words of memory out of 3000000
+ 10135 multiletter control sequences out of 15000+50000
+ 37739 words of font info for 83 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 38i,12n,30p,1077b,347s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmbx7.pfb></usr/share/texmf-texlive/fonts/type1/public/a
+msfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
+cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi5.pfb><
+/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-texlive
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1
+/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
+nts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/s
+hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-texlive
+/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/h
+elvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pf
+b></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-
+texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/
+urw/times/utmri8a.pfb>
+Output written on egpaper_for_review.pdf (7 pages, 6399094 bytes).
+PDF statistics:
+ 313 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 421 words of extra memory for PDF output out of 10000 (max. 10000000)
+

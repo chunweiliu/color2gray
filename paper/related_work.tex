@@ -1,0 +1,84 @@
+\section{Related Work}
+\label{sec:related}
+
+% Decolorization
+% 1. Dimensionality reduction
+% 2. Other method
+% 3. Local
+% 4. Global
+% Isoluminant
+% Gamut mapping
+
+Decolorization can be view as a subset of dimensionality reduction problem.
+Several algorithms have been proposed for compressing different types of data in general.
+Principal Component Analysis (PCA) is a classic technique
+of linear dimensionality reduction.
+PCA function as decolorization by computing an ellipsoid to fit data in color space
+and projecting points into the major axis of the ellipsoid.
+In addition to linear methods, non-linear dimensionality reduction also served this task 
+by fitting a more complex model in the color space. 
+%as Teschioni~\etal's suggestion~\cite{Teschioni:1997:AMA}.
+Both linear and non-linear model is sensitive to color space.
+For example, RGB and CIEL*a*b lead totally different grayscale images in practice.
+Despite of the complexity of the model using in this scenario, 
+the main concern is that weather the color space reveal helpful hints
+for them to explain data and perform mapping on it.
+However, limited papers apply dimensionality reduction into their framework,
+and even less of them discuss about the property of color space for this scheme. 
+In a result that these methods were reported unstable for decolorziation~\cite{Gooch:2005:CSC}.
+
+In recent years, several methods of decolorization have been proposed,
+and they can be categorized in
+%local~\cite{Bala:2004:SCT,Gooch:2005:CSC,Smith:2008:AGA,Lau:2011:CBC}
+%and global~\cite{Rasche:2005:RIG,Grundland:2007:DFC,Kim:2009:RCV,Ancuti:2011:ESG} approaches.
+Local operators aware of their neighborhood, they perform color mapping based on the spatial
+relationship. 
+In the other hand, global operators seek the same mapping to all pixels in the image
+without losing significant contrast by careful design.
+
+Bala and Eschbach~\cite{Bala:2004:SCT} combined luminance and chromatics through
+high-pass filter which preserved edge information.
+Although the filter-based operators is efficient, it can only handles the color differences
+within a pixel width.
+Gooch~\etal~\cite{Gooch:2005:CSC} proposed the technique that optimizes grayscale images
+which satisfied the offsets of pixel-level chromatic differences.
+Their study presented cheerful results on small scale image, but it is unable to scale up
+by the limitation of a quartic order algorithm.
+Smith~\etal~\cite{Smith:2008:AGA} used a two-step algorithm which 
+globally mapped apparent lighting and then locally enhance the contrast by using
+a pyramid-based decomposition of images.
+In general, preserving information in neighborhood may help to enhance the contrast locally,
+but they also might be suffer from distorting the order of illuminance in a wider view.
+Moreover, they are computationally expensive as our reported in Table~\ref{tab:performance}.
+
+On the other hand, 
+Rasche~\etal~\cite{Rasche:2005:RIG} applied nonlinearly constraint optimization to seek
+a global contrasts between all colors in the image instead of pixels.
+They further refine their method by eliminating the computation~\cite{Rasche:2005:DPR}.
+Grundland and Dodgson~\cite{Grundland:2007:DFC}
+performed global color mapping with predominant component analysis.
+The straightforward operator is efficient by Gaussian pairing sampling
+which reduce the amount of comparing color differences.
+By considering those comparison of color differences should not be handled in pixel level,
+Lau~\etal~\cite{Lau:2011:CBC} proposed a cluster-based algorithm which manipulate the
+operator on graphical model.
+Rather than seeking a perfect optical match, Ancuti~\etal~\cite{Ancuti:2011:ESG}
+argued the decolorization operator should focus on the salient regions in the picture.
+
+Inspired by these methods, considering the advantages: 
+(1) efficiency by computing on upper pixel level
+(2) saliency by focusing on important region in the image,
+we propose a global color mapping which preserves these
+features by learning a linear projection through a sparse space with higher dimensionality.
+We argue that the power of linear operator has been underestimated.
+With a suitable feature transform, we preserve contrast and saliency without suffering
+from potential isoluminants color in the input image.
+As a global method, our algorithm avoid to create artifacts such as halos or 
+broken segments in local methods.
+In contrast with other global methods, we straightly preserve the most salient region
+in the images to exploit the power of linear operator as demonstrated in 
+Figure~\ref{fig:saliency}.
+Different from Ancuti~\etal~\cite{Ancuti:2011:ESG}, our method default do not enhancing
+the indistinct pattern as showed in Figure~\ref{fig:comparison}.
+
+

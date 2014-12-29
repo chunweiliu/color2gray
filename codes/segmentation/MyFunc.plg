@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyFunc - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\KaiYueh\LOCALS~1\Temp\RSP9E0.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib libmx.lib libmex.lib libmat.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/EGBIS.pdb" /machine:I386 /def:".\MyFunc.def" /out:"Release/EGBIS.dll" /implib:"Release/EGBIS.lib" 
+".\Release\MyFunc.obj"
+]
+Creating command line "xilink6.exe @C:\DOCUME~1\KaiYueh\LOCALS~1\Temp\RSP9E0.tmp"
+<h3>Output Window</h3>
+Linking...
+xilink6: executing 'C:\PROGRA~1\MICROS~2\VC98\Bin\link.exe'
+   Creating library Release/EGBIS.lib and object Release/EGBIS.exp
+Creating command line "bscmake.exe /nologo /o"Release/MyFunc.bsc"  ".\Release\MyFunc.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+EGBIS.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

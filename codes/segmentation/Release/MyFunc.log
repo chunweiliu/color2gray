@@ -1,0 +1,34 @@
+﻿已經開始建置於 2/4/2012 11:33:58 AM。
+     1>節點 2 (build 目標) 上的專案 "D:\research\EGBIS\MyFunc.vcxproj"。
+     1>InitializeBuildStatus:
+         正在變更時間戳記 ".\Release\MyFunc.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _WINDLL /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\\" /Fd".\Release\vc100.pdb" /FR".\Release\\" /Gd /TP /errorReport:prompt MyFunc.cpp
+         MyFunc.cpp
+     1>d:\research\egbis\pnmfile.h(148): warning C4101: 'doc' : 未參考的區域變數
+     1>d:\research\egbis\filter.h(66): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>d:\research\egbis\segment-image.h(34): warning C4101: 'r' : 未參考的區域變數
+     1>MyFunc.cpp(75): warning C4101: 'nHLabel' : 未參考的區域變數
+     1>MyFunc.cpp(74): warning C4101: 'nPatch' : 未參考的區域變數
+     1>MyFunc.cpp(75): warning C4101: 'nFeature' : 未參考的區域變數
+     1>MyFunc.cpp(75): warning C4101: 'nYLabel' : 未參考的區域變數
+     1>MyFunc.cpp(81): warning C4101: 'pDouble' : 未參考的區域變數
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\research\EGBIS\.\Release\MyFunc.dll) 與 Linker 的 OutputFile 屬性值 (D:\research\EGBIS\Release\EGBIS.mexw64) 不相符。這可能會導致您的專案建置不正確。若要改正這種情況，請確認 $(OutDir)、$(TargetName) 和 $(TargetExt) 屬性值必須與 %(Link.OutputFile) 中指定的值相符。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(991,5): warning MSB8012: TargetExt(.dll) 與 Linker 的 OutputFile 屬性值 (.mexw64) 不相符。這可能會導致您的專案建置不正確。若要改正這種情況，請確認 $(OutDir)、$(TargetName) 和 $(TargetExt) 屬性值必須與 %(Link.OutputFile) 中指定的值相符。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(MyFunc) 與 Linker 的 OutputFile 屬性值 (EGBIS) 不相符。這可能會導致您的專案建置不正確。若要改正這種情況，請確認 $(OutDir)、$(TargetName) 和 $(TargetExt) 屬性值必須與 %(Link.OutputFile) 中指定的值相符。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"Release/EGBIS.mexw64" /INCREMENTAL:NO /NOLOGO odbc32.lib odbccp32.lib libmx.lib libmex.lib libmat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\MyFunc.def" /MANIFEST /ManifestFile:".\Release\MyFunc.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\research\EGBIS\Release\MyFunc.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\EGBIS.lib" /MACHINE:X64 /DLL .\Release\MyFunc.obj
+            正在建立程式庫 .\Release\EGBIS.lib 和物件 .\Release\EGBIS.exp
+         MyFunc.vcxproj -> D:\research\EGBIS\.\Release\MyFunc.dll
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Release/EGBIS.mexw64;#2" /manifest .\Release\MyFunc.dll.intermediate.manifest
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Release\MyFunc.bsc" .\Release\MyFunc.sbr
+       FinalizeBuildStatus:
+         正在刪除檔案 ".\Release\MyFunc.unsuccessfulbuild"。
+         正在變更時間戳記 ".\Release\MyFunc.lastbuildstate"。
+     1>專案 "D:\research\EGBIS\MyFunc.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.77

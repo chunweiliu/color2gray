@@ -1,0 +1,13 @@
+﻿已經開始建置於 2/4/2012 11:12:03 AM。
+     1>節點 2 (build 目標) 上的專案 "D:\research\EGBIS\MyFunc.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 ".\Debug\MyFunc.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _WINDLL /Gm- /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /errorReport:prompt MyFunc.cpp
+         MyFunc.cpp
+     1>MyFunc.cpp(3): fatal error C1083: 無法開啟包含檔案: 'mex.h': No such file or directory
+     1>專案 "D:\research\EGBIS\MyFunc.vcxproj" (build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:00.10
